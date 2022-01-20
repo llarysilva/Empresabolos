@@ -1,0 +1,180 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+
+}
+.logo {
+  
+
+    margin-left: 40px;
+
+    
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+.nav-bar {
+    display: flex;
+    background-color: rgb(117, 10, 85);
+    padding: 10px;
+}
+.menu a {
+   margin: 10px;
+   color: white;
+  text-decoration: none;
+}
+
+.menu {
+    margin-left:60%;
+    margin-top: 15px;
+
+}
+section.opcoes {
+ background-image: url(imagens/bla.png);
+ filter: brightness(75%);
+ background-repeat: no-repeat;
+ background-position-x: center;
+ background-attachment: fixed;
+ background-color: palevioletred;
+ height: 560px;
+}
+.text{
+    filter: brightness();
+}
+.text h1{
+    text-align: center;
+    padding-top: 150px;
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text button {
+    border: 0;
+    background-image: linear-gradient(to left, rgb(131, 24, 108), rgb(116, 63, 116), rgb(124, 48, 80));
+    color: white;
+    width: 100px;
+    border-radius: 5px;
+    height: 40px;
+    cursor: pointer;
+    padding: -1px;
+    text-align: center;
+    transition: all 0.3s ease;
+    margin-left: 600px;
+    font-size: 1em;
+    
+
+}
+.text button:hover{
+ 
+        letter-spacing: 0.5px;
+}
+.center {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+    
+   
+}
+.conteudo  {
+      width: 1200px;
+      background-color: rgba(238, 229, 229, 0.397);
+      margin: auto;
+      border-radius: 10px;
+}
+.conteudo h1{
+    padding: 10px;
+    color: black;
+}
+.bolos img{
+    width: 120px;
+    border-radius: 50%;
+    height: 120px;
+    margin: 15px;
+    transition: 0.3s all;
+
+}
+
+.bolos p{
+    text-align: center;
+    
+}
+.bolos a{ 
+    text-decoration: none;
+    color: black;
+}
+.flex {
+    display: flex;
+}
+.doces img{
+    width: 120px;
+    border-radius: 20%;
+    height: 120px;
+    margin: 15px;
+    transition: 0.3s all;
+
+}
+.doces p{
+    text-align: center;
+    
+}
+.doces a{ 
+    text-decoration: none;
+    color: black;
+}
+.reco img{
+    width: 210px;
+    border-radius: 20%;
+    height: 150px;
+    margin: 15px;
+    transition: 0.3s all;
+
+}
+.reco p{
+    text-align: center;
+    
+}
+.reco a{ 
+    text-decoration: none;
+    color: black;
+}
+
+.reco img:hover {
+    transform: scale(1.1);
+}
+.doces img:hover{
+  transform: scale(1.1);
+}
+.bolos img:hover{
+    transform: scale(1.1);
+}
+
+.contato{
+    background-color: rgb(66, 0, 44);
+    padding: 10px;
+
+}
+.descricao p{
+    color: blanchedalmond;
+    text-align: center;
+}
+.descricao i {
+    color: blanchedalmond;
+    font-size: 1.3em;
+    margin: 3px;
+    transition:  0.20s all;
+}
+.descricao a > i:hover {
+    transform: scale(1.8);
+    color: rgb(158, 0, 92);
+}

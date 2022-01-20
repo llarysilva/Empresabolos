@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/9193324559.js" crossorigin="anonymous"></script>
+    <title>DeliciasGourmet</title>
+    <link rel="stylesheet" href="css3.css">
+
+</head>
+<body>
+  <header>
+    <div class="center">
+        <div class="logo"><a href="indeex.html">It's Sweet Delights</a></div>
+        <div class="menu">
+            <a href="">Inicio</a>
+            <a href="bolos.html">Bolos</a>
+            <a href="contato.html">Contato</a>
+           
+        </div>
+         
+    </div>
+</header>
+    <section class="sobre">
+        <div class="extras">
+            <img src="imagens/centro.png" alt="" class="bollos">
+            <div class="social-media">
+                <a href="#"><i class="fab fa-facebook"></i></a> <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-whatsapp"></i></a>            </div>
+
+        </div>
+        <div class="center">
+            <div class="texto-sobre">
+                <h1>Para entrar em contato com a gente <br> It's<span style="color: rgb(172, 0, 143);font-weight: 700;"> Sweet Delights</span></h1> 
+               <h3>Como encontar a gente</h3>
+                <h4><i class="fas fa-phone-alt"></i> +55 32 988470110</h4>
+               <h4><i class="fab fa-google"></i> Laryofice@gmail.com</h4>
+               <h4><i class="fab fa-microsoft"></i> Laryoficessilva@outlook.com</h4>
+               <h4><i class="fab fa-instagram"></i> Ewlaryy</h4>
+               <h4><i class="fab fa-twitter"></i> Ewlaryy</h4>
+               <h4><i class="fab fa-facebook"></i> Laryssa Silva</h4>
+               <h4><i class="fab fa-github"></i> Ewlaryy</h4>
+                 
+                </div>
+                
+        </div>
+        <ul class="boloss"> 
+            <li><img src="imagens/centro.png" alt="" onclick="slider('imagens/centro.png');changeColor('rgba(221, 6, 203, 0.301)')"></li>
+            <li><img src="imagens/bolobaixo.png"  alt="" onclick="slider('imagens/bolobaixo.png');changeColor('pink')"></li>
+            <li><img src="imagens/boloright.png" alt="" onclick="slider('imagens/boloright.png');changeColor('violet')"></li>
+        </ul>
+    </section>
+    <script>
+        function slider(anything) {
+            document.querySelector('.bollos').src = anything
+        }
+        function changeColor(color){
+            const extras = document.querySelector('.extras');
+            extras.style.background = color;
+
+        }
+    </script>
+</body>
+</html>

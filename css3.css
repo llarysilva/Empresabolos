@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.center {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+   
+}
+body {
+    background-color: rgba(206, 151, 161, 0.37);
+}
+header {
+    padding: 20px ;
+    height: 200px;
+}
+.logo a  {
+
+font-size: 2em;
+   
+color: rgb(138, 2, 77);
+text-decoration: none;
+  
+}
+.logo {
+    padding-top: 28px;
+}
+.menu {
+    margin-right: 30px;
+    padding-top: 28px; 
+    text-align: right;
+    
+}
+.menu a {
+    color: black;
+    text-decoration: none;
+    font-weight: 200;
+    margin: 6px;
+    font-size: 1.2em;
+    text-align: center;
+    position: relative;
+    left: 700px;
+   
+
+}
+html, body{
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+section.sobre {
+    position: relative;
+    height: calc(100% - 200px);
+}
+.extras {
+    position: absolute;
+    bottom: -470px;
+    right: -500px;
+    width: 1000px;
+    border-radius: 50%;
+    height: 950px;
+    background-color: #6909614d;
+
+}
+.extras i{
+    color: black;
+}
+.social-media{
+    position: absolute;
+    right: 510px;
+    top: 200px;
+
+}
+.social-media a{
+    display: block;
+    font-size: 1.5em;
+    margin: 10px 0 ;
+
+}
+.texto-sobre {
+    margin-top: 0px;
+}
+.texto-sobre h1{
+   font-size: 40px;
+}
+.texto-sobre h3 {
+    margin: 20px 0;
+    color: black;
+    font-size: 20px;
+    font-weight: bold
+    
+}
+.extras img {
+    width: 400px;
+}
+.texto-sobre button {
+    border: 0;
+    background-image: linear-gradient(to left, rgb(131, 24, 108), rgb(116, 63, 116), rgb(124, 48, 80));
+    color: white;
+    width: 100px;
+    border-radius: 10px;
+    height: 30px;
+    cursor: pointer;
+    padding: -1px;
+    text-align: center;
+    transition: all 0.3s ease;
+
+}
+.texto-sobre button:hover{
+ 
+        letter-spacing: 0.5px;
+}
+.boloss {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    display: flex;
+    list-style-type: none;
+    margin:  0 20px;
+    cursor: pointer;
+    transition: all 0.5s;
+      transition: 0.5s all;
+}
+   
+
+.boloss img {
+    width: 80px; 
+  
+
+}
+.boloss li:hover {
+    transform: translateY(-15px);
+}
+.boloss li img{
+    max-width: 60px;
+}
+ /* Responsividade*/
