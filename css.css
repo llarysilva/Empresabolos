@@ -21,10 +21,14 @@ header {
 .logo a  {
 
 font-size: 2em;
-   
+transition: 0.5s all ease;
 color: rgb(138, 2, 77);
 text-decoration: none;
   
+}
+.logo a:hover{
+    letter-spacing: -0.9px;
+
 }
 .logo {
     padding-top: 28px;
@@ -47,6 +51,11 @@ text-decoration: none;
    
 
 }
+.menu a:hover{
+    color: rgb(145, 22, 145);
+    transition: 0.5s all ease;
+
+}
 html, body{
     height: 100%;
     overflow-y: hidden;
@@ -63,7 +72,8 @@ section.sobre {
     width: 1000px;
     border-radius: 50%;
     height: 950px;
-    background-color: #6909614d;
+    background-color: #ca00b9;
+    transition: 0.5s all ease;
 
 }
 .extras i{
@@ -96,6 +106,7 @@ section.sobre {
 }
 .extras img {
     width: 400px;
+    transition: 0.5s all ease;
 }
 .texto-sobre button {
     border: 0;
@@ -130,7 +141,11 @@ section.sobre {
 
 .boloss img {
     width: 80px; 
-  
+    
+
+}
+.boloss li {
+      transition: 0.5s all ease;
 
 }
 .boloss li:hover {
@@ -138,5 +153,6 @@ section.sobre {
 }
 .boloss li img{
     max-width: 60px;
+    
 }
  /* Responsividade*/
